@@ -52,16 +52,28 @@ function App() {
         <h3>1. Import Something from 'package'</h3>
         <p>This is like unwrapping a toy and saying, "I want a surprise toy!" You don't know exactly which toy you'll get, but you're excited to see what's inside. So, when you say <b>import Something from 'package'</b>, you're getting a surprise toy from the package. You can play with it without knowing its specific name.</p>
 
-<h3>{"2. Import {Something} from 'package'"}</h3>
-<p>{`Now, this is a bit different. It's like looking at the wrapping paper and saying, "I want the toy with the robot
+        <h3>{"2. Import {Something} from 'package'"}</h3>
+        <p>{`Now, this is a bit different. It's like looking at the wrapping paper and saying, "I want the toy with the robot
    picture." You're being specific about which toy you want. So, when you say import { Something } from 'package', you're
     choosing a toy by its name, like the one with the robot picture on the wrapper. Then you can play with that specific 
     toy.`}</p>
-    <hr />
+        <hr />
       </div>
       <div>
-        
+
       </div>
+      <div className="card">
+        <h4>ID : 1</h4>
+        <p>Name : Ahmed Karim</p>
+        <p>User Name : nagda</p>
+        <p>Email : ahmed@gmail.com</p>
+        <p>Phone: 03061668012</p>
+        <p>Website: hildegard.org</p>
+
+      </div>
+
+
+
 
     </div>
   );
