@@ -1,5 +1,5 @@
 import "./App.css"
-let fakeApi = 
+let fakeApi =
   [
     {
       "id": 1,
@@ -296,24 +296,21 @@ function App() {
         <hr />
       </div>
       <div>
-
+      <h1 className="question">Question 3</h1>
       </div>
-  
-      <div className="card">
-      {fakeApi.forEach((v) => {
-        let value = v
-        console.log(value)
-          return value
-      })}
-      
-    
-        <h4>{`ID : ${fakeApi[0].id}`}</h4>
-        <p>{`Name : ${fakeApi[0].name}`}</p>
-        <p>{`User Name : ${fakeApi[0].username}`}</p>
-        <p>{`Email : ${fakeApi[0].email}`}</p>
-        <p>{`Phone: ${fakeApi[0].phone}`}</p>
-        <p>{`Website: ${fakeApi[0].website}`}</p>
 
+      <div className="card-main-div">
+      {fakeApi.map((v) => 
+      <div className="card">
+
+        <h3>{`Id : ${v.id}`}</h3>
+        <p>{`Name : ${v.name}`}</p>
+        <p>{`User Name : ${v.username}`}</p>
+        <p>{`Email : ${v.email}`}</p>
+        <p>{`Phone : ${v.phone}`}</p>
+        <p>{`Website : ${v.website}`}</p>
+      </div>
+      )}
       </div>
 
 
